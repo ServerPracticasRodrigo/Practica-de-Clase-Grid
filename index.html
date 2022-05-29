@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica formulario</title>
+    <link rel="stylesheet" href="./Estilosp3.css">
+    <style>
+        .container
+        {
+            border:5px solid rgb(100, 5, 21);
+            background-color: darksalmon;
+            display: grid;
+            grid-template-rows: 300px 300px 300px;
+            grid-auto-columns: 300px;
+            grid-auto-flow: column;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .item {
+            border:5px solid rgb(97, 65, 5);
+            display: grid;
+            justify-items: end;
+            align-items: end;
+            margin-bottom:0px;
+            background-color: green;
+            background: linear-gradient(214deg,green 0% rgb(5, 36, 109) 100%);
+        }
+
+        .item:nth-child(1n+1)
+        {
+            background-color: green;
+            background: linear-gradient(214deg,green 0% rgb(5, 36, 109) 100%);
+        }
+
+        .item:nth-child(3n+2)
+        {
+            background-color:red;
+            background: linear-gradient(214deg,red 0%, rgb(3, 79, 3) 100%);
+        }
+
+        .mesage {
+            background-color: chartreuse;
+            width: 80px;
+            height: 80px;
+            display:grid;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size:4rem;
+
+            margin:0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body >
+    <div class="container">
+        <section class="item">
+            <p class="mesage">1</p>
+        </section>
+        <section class="item">
+            <p class="mesage">2</p>
+        </section>
+        <section class="item">
+            <p class="mesage">3</p>
+        </section>
+        <section class="item">
+            <p class="mesage">4</p>
+        </section>
+        <section class="item">
+            <p class="mesage">5</p>
+        </section>
+        <section class="item">
+            <p class="mesage">6</p>
+        </section>
+        <section class="item">
+            <p class="mesage">7</p>
+        </section>
+        <section class="item">
+            <p class="mesage">8</p>
+        </section>
+        <section class="item">
+            <p class="mesage">9</p>
+        </section>
+    </div>
+    <br><br>
+    <img src="cap4.png" alt="validacion p1" width="1350" height="800">
+</body>
+
+</html>
